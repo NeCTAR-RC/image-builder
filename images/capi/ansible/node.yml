@@ -54,6 +54,9 @@
     - name: Include kubernetes role
       ansible.builtin.include_role:
         name: kubernetes
+    - name: Include linux-volumes-by-tag role
+      ansible.builtin.include_role:
+        name: linux-volumes-by-tag
     - name: Include load_additional_components role
       ansible.builtin.include_role:
         name: load_additional_components
